@@ -1,0 +1,62 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    padding-top: 25px;
+}
+.navbar h1{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ff7200;
+    position: relative;
+}
+.navbar p{
+    color: white;
+}
+.content ul li{
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 27px;
+    font-size: 25px;
+    margin-right: 190px;
+    color: rgb(255, 255, 255);
+    font-family: Fantasy;
+    background-color: #ff7200;
+    border-radius: 10px;
+}
+.contact{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.contact a{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact a{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
